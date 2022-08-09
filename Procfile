@@ -1,1 +1,1 @@
-web.sh setup.sh &&streamilt run sent-analysis-app-py
+web.sh setup.sh && streamilt run parti_2_prédire_le_prix.py
