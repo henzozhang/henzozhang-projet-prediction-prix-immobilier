@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-from sklearn.linear_model import Ridge
+
 
 st.title("Estimation du prix d'une maison à Seattel" )
 st.header("Entrez les informations") 
