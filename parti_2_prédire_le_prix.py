@@ -3,6 +3,10 @@ import pandas as pd
 import numpy as np
 import pickle
 import sklearn as sk
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import StandardScaler, OneHotEncoder, PolynomialFeatures
+from sklearn.linear_model import LinearRegression,Ridge,Lasso,ElasticNet
+
 
 
 st.title("Estimation du prix d'une maison à Seattel" )
